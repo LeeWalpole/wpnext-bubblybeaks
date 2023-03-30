@@ -5,7 +5,7 @@ import TemplateArchive from 'templates/archive';
 
 export default function Posts({ posts, pagination }) {
   const title = `All Posts`;
-  const slug = 'posts';
+  const slug = 'blog';
 
   const { metadata } = usePageMetadata({
     metadata: {
